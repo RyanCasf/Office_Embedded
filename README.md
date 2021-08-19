@@ -1,2 +1,2 @@
-# Office_Embedded
-Códigos para entender as liguagens usadas para gerar ferramentas de escritório.
+# Linguagens de Escritório
+Códigos para entender / estudar as linguagens usadas para gerar ferramentas de escritório.
