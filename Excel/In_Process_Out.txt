@@ -1,0 +1,45 @@
+Sub ConsumoAlimento()
+
+Dim qtdeAlimentosKg As Double, duracaoConsumo As Double
+
+qtdeAlimentosKg = InputBox("Digite a quantidade de alimentos em Kg, quilogramas: ")
+duracaoConsumo = (qtdeAlimentosKg / (50 / 1000))
+
+MsgBox ("Levará " & duracaoConsumo & " dias de consumo, com consumo diário de 50g.")
+
+End Sub
+
+Sub salarioFinal()
+
+Dim qtdeHorasTrabalhadas As Double, valorHora As Double, descontoPercentual As Double, salarioBruto As Double, salarioLiquido As Double
+Dim qtdeDependentes As Integer
+
+qtdeHorasTrabalhadas = InputBox("Digite a quantidade horas trabalhadas: ")
+valorHora = InputBox("Digite o valor em R$, reais, da hora de trabalho: ")
+descontoPercentual = InputBox("Digite o percentual de desconto: ")
+qtdeDependentes = InputBox("Digite a quantidade de dependentes: ")
+
+salarioBruto = (qtdeHorasTrabalhadas * valorHora)
+salarioLiquido = (salarioBruto - (salarioBruto * (descontoPercentual / 100)))
+salarioLiquido = (salarioLiquido + (qtdeDependentes * 100))
+
+MsgBox ("O salário final é de R$ " & salarioLiquido)
+
+End Sub
+Sub raix()
+
+Dim a As Double, b As Double, c As Double
+Dim delta As Double, raiz1 As Double, raiz2 As Double
+
+a = InputBox("Informe o valor de 'A': ")
+b = InputBox("Informe o valor de 'B': ")
+c = InputBox("Informe o valor de 'C': ")
+
+delta = (b * b) - (4 * a * c)
+
+raiz1 = (-b + Sqr(delta)) / (2 * a)
+raiz2 = (-b - Sqr(delta)) / (2 * a)
+
+MsgBox ("As raízes são: " & raiz1 & " e " & raiz2)
+
+End Sub
