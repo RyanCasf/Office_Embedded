@@ -1,0 +1,23 @@
+Sub gerarLista()
+
+    Dim nome As String
+    nome = InputBox("Digite um nome: ")
+
+    Dim cargo As String
+    cargo = InputBox("Digite o cargo: ")
+    
+    Range("A1").Value = "Nome: "
+    Range("A2").Value = nome
+    
+    Range("B1").Value = "Cargo: "
+    Range("B2").Value = cargo
+    
+End Sub
+
+
+Sub limparLista()
+    Range("a1").Value = ""
+    Range("a2").Value = ""
+    Range("b1").Value = ""
+    Range("b2").Value = ""
+End Sub
