@@ -1,0 +1,13 @@
+Sub idade()
+
+	Dim anoNascimento As Integer, anoAtual As Integer, idadeAtual As Integer, tempoFuturo As Integer
+
+	anoNascimento = InputBox("Digite um ano de nascimento: ")
+	anoAtual = InputBox("Digite o ano atual: ")
+	tempoFuturo = InputBox("Digite quanto tempo no futuro: ")
+
+	idadeAtual = (anoAtual - anoNascimento)
+
+	MsgBox ("Você tem " & idadeAtual & " anos de idade em " & anoAtual & " e terá " & idadeFutura & " anos de idade em " & (anoAtual + tempoFuturo))
+
+End Sub

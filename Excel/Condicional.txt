@@ -1,0 +1,22 @@
+Sub btnCalcularStatusNota()
+
+    linhaFinal = Range("B3").End(xlDown).Row + 1
+    Index = 3
+    
+    While Index < linhaFinal
+        resultCelular = ("D" & Index)
+        
+	If Range("C" & Index).Value > 6 Then
+            Range(resultCelular).Value = "APROVADO"
+            Range(resultCelular).Font.Color = RGB(0, 155, 0)
+            Range(resultCelular).Font.Bold = True
+        Else
+            Range(resultCelular).Value = "NEED N3"
+            Range(resultCelular).Font.Color = RGB(155, 0, 0)
+            Range(resultCelular).Font.Bold = True
+        End If
+        
+	Index = Index + 1
+    Wend
+    
+End Sub

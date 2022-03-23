@@ -1,0 +1,20 @@
+Sub btnFiltroEq()
+
+    Dim linhaFim As Integer, i As Integer
+    linhaFim = Range("B2").End(xlDown).Row
+
+    Dim nome As String
+    nome = InputBox("Dígite um texto para Pesquisa (%% - open): ")
+
+    Debug.Print nome & " - " & linhaFim
+    
+    i = 1
+    While (i <= linhaFim)
+        If nome = Range("B" & i).Value Then
+            Range("B" & i).Copy
+            Range("G2").PasteSpecial
+        End If
+        i = i + 1
+    Wend
+    
+End Sub
