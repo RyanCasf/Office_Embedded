@@ -7,6 +7,6 @@ Códigos para entender / estudar as linguagens usadas para gerar ferramentas de 
 <pre>
 Realizador:
 ° RYAN CASTRO FERREIRA.
-<b style="color: blue;">LinkdIn </b>- <a href="https://www.linkedin.com/in/ryan-castro-ferreira">https://www.linkedin.com/in/ryan-castro-ferreira/</a>
-<b style="color: red;">Email </b>- ryancasf@gmail.com
+<b>LinkedIn</b> - <a href="https://www.linkedin.com/in/ryan-castro-ferreira">https://www.linkedin.com/in/ryan-castro-ferreira/</a>
+<b>E-mail</b> - ryancasf@gmail.com
 </pre>
